@@ -1,0 +1,74 @@
+body{
+    background-color: hsl(214, 47%, 23%);
+
+}
+.rock{
+    height: 150px;
+    width: 150px;
+    background-color: white;
+    border-radius: 50%;
+    border: 20px solid hsl(349, 71%, 52%);
+    box-shadow:20px solid hsl(349, 70%, 56%);
+    position: absolute;
+    right:585px;
+    bottom: 10px;
+   
+    
+}
+
+#rock{
+    position:absolute;
+    top: 50px;
+    right: 50px;
+    bottom:50px;
+    left: 50px;
+}
+.paper{
+    height: 150px;
+    width: 150px;
+    background-color: white;
+    border-radius: 50%;
+    border: 20px solid hsl(230, 89%, 62%);
+    box-shadow:20px solid hsl(349, 70%, 56%);
+    position: absolute;
+    top:300px;
+    left:400px;
+   
+    
+}
+#paper{
+    position:absolute;
+    top: 50px;
+    right: 50px;
+    bottom:50px;
+    left: 50px;
+
+    
+
+
+}
+.scissors{
+    height: 150px;
+    width: 150px;
+    background-color: white;
+    border-radius: 50%;
+    border: 20px solid hsl(40, 84%, 53%);
+    box-shadow:20px solid hsl(349, 70%, 56%);
+    position: absolute;
+    top: 300px;
+    right:400px
+
+   
+    
+}
+#scissors{
+    position:absolute;
+    top: 50px;
+    right: 50px;
+    bottom:50px;
+    left: 50px;
+
+    
+
+
+}
